@@ -44,7 +44,7 @@
 				</a>
 				<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
 				<!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
                   View Cart
                 </button>
 				<!-- Modal -->
