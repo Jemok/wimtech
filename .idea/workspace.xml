@@ -29,16 +29,16 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="309" selection-end="309" vertical-scroll-proportion="-6.230769" vertical-offset="108" max-vertical-offset="4374">
+            <state line="15" column="34" selection-start="309" selection-end="309" vertical-scroll-proportion="12.615385" vertical-offset="598" max-vertical-offset="4374">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <file leaf-file-name="app.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="453" column="18" selection-start="8335" selection-end="8335" vertical-scroll-proportion="0.57372653" vertical-offset="7940" max-vertical-offset="89928">
+            <state line="195" column="38" selection-start="7849" selection-end="7849" vertical-scroll-proportion="0.4125" vertical-offset="3345" max-vertical-offset="5508">
               <folding />
             </state>
           </provider>
@@ -82,7 +82,6 @@
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/product/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/product/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/laptops/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LaptopsController.php" />
@@ -94,6 +93,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/CheckOutController.php" />
         <option value="$PROJECT_DIR$/resources/views/checkout/orders.blade.php" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
       </list>
     </option>
   </component>
@@ -164,6 +164,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wimtech" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wimtech" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -561,11 +583,6 @@
         <state line="9" column="6" selection-start="163" selection-end="163" vertical-scroll-proportion="-0.04945055" vertical-offset="162" max-vertical-offset="558" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="39" selection-start="7433" selection-end="7433" vertical-scroll-proportion="0.0" vertical-offset="3294" max-vertical-offset="5526" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="72" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.7032967" vertical-offset="716" max-vertical-offset="1080">
@@ -637,19 +654,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="450" column="29" selection-start="8265" selection-end="8265" vertical-scroll-proportion="0.42895442" vertical-offset="7940" max-vertical-offset="89928">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="309" selection-end="309" vertical-scroll-proportion="-6.230769" vertical-offset="108" max-vertical-offset="4374">
+        <state line="15" column="34" selection-start="309" selection-end="309" vertical-scroll-proportion="12.615385" vertical-offset="598" max-vertical-offset="4374">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="453" column="18" selection-start="8335" selection-end="8335" vertical-scroll-proportion="0.57372653" vertical-offset="7940" max-vertical-offset="89928">
+        <state line="195" column="38" selection-start="7849" selection-end="7849" vertical-scroll-proportion="0.4125" vertical-offset="3345" max-vertical-offset="5508">
           <folding />
         </state>
       </provider>

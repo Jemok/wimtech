@@ -193,7 +193,6 @@
     					<div class=" bottom-head">
     						<a href="{{url('category/'.$category->id)}}">
     							<div class="buy-media">
-    								<i class="{{$category->category_class}}"> </i>
     								<h6>{{$category->category_name}}</h6>
     							</div>
     						</a>
