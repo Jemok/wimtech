@@ -84,7 +84,7 @@
                <link href="{{ asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
 
 
-            <div class="navigation">
+            <!--<div class="navigation">
                     <div class="container-fluid">
                         <nav class="pull">
                             <ul>
@@ -97,23 +97,23 @@
                             </ul>
                         </nav>
                     </div>
-            </div>
+            </div>-->
 
             <div class="header">
                 <div class="container">
                     <!--logo-->
-                        <div class="logo">
+                        <!--<div class="logo">
                             <h1><a href="index.html">WIMTECH collections</a></h1>
-                        </div>
+                        </div>-->
                     <!--//logo-->
                     <div class="top-nav">
-                        <ul class="right-icons">
+                        <!--<ul class="right-icons">
                             <li><span ><i class="glyphicon glyphicon-phone"> </i></span></li>
                              </a></li>
 
-                        </ul>
+                        </ul>-->
                         <div class="nav-icon">
-                            <div class="hero fa-navicon fa-2x nav_slide_button" id="hero">
+                            <div class="hero fa-2x nav_slide_button" id="hero">
                                     <a href="#"><i class="glyphicon glyphicon-menu-hamburger"></i> </a>
                             </div>
                             <!---
