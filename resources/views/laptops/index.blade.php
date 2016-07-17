@@ -180,15 +180,15 @@
 							</div>
 						</div>
 						@endforeach
-                            <div class="row pull-left">
-                                {!! $products->links() !!}
-                            </div>
                         @endif
 
                     </div>
 
                 </div>
 				</div>
+            <div class="row pull-left">
+                {!! $products->links() !!}
+            </div>
 				<div class="col-md-4 products-grid-right">
 				<!--	<div class="w_sidebar">
 						<div class="w_nav1">
