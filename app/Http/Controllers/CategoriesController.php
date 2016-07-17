@@ -26,15 +26,14 @@ class CategoriesController extends Controller
 
     public function index($category_id){
 
-        $products = Product::where('category_id', '=', $category_id)->latest()->paginate(12);
+        $products = Product::where('category_id', '=', $category_id)->latest()->paginate(6);
 
         $category_name = Category::where('id', '=', $category_id)->first()->category_name;
 
-        $categories = Category::paginate(6);
+        $categories = Category::all();
 
         return view('laptops.index', compact('products', 'category_name', 'categories'));
     }
-    
 
     public function create(){
 
