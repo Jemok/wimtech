@@ -180,12 +180,9 @@
 							</div>
 						</div>
 						@endforeach
-
-                            {!! $products->links() !!}
-
-
                         @endif
-					</div>
+                        {!! $products->links() !!}
+                    </div>
 					</div>
 				</div>
 				<div class="col-md-4 products-grid-right">
