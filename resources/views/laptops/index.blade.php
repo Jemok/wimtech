@@ -181,13 +181,13 @@
 						</div>
 						@endforeach
                         @endif
-
+                        <div class="row pull-left">
+                            {!! $products->links() !!}
+                        </div>
                     </div>
 
                 </div>
-                <div class="row pull-left">
-                    {!! $products->links() !!}
-                </div>
+
 				</div>
 
 				<div class="col-md-4 products-grid-right">
