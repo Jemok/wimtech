@@ -180,10 +180,11 @@
 							</div>
 						</div>
 						@endforeach
+                            <div class="row pull-left">
+                                {!! $products->links() !!}
+                            </div>
                         @endif
-                        <div class="row pull-left">
-                            {!! $products->links() !!}
-                        </div>
+
                     </div>
 
                 </div>
