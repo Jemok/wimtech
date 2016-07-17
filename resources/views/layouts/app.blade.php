@@ -63,11 +63,11 @@
                 				<ul>
                 					<li><a href="#">WIMTECH</a></li>
                 					<li><a href="#">Collectios</a></li>
-                					<li><a href="#"></a></li>
+                					{{--<li><a href="#"></a></li>--}}
                 				</ul>
                 			</div>
                 			<div class="top_left">
-                				<h6><span></span> Call us : 032 2352 782</h6>
+                				{{--<h6><span></span> Call us : 032 2352 782</h6>--}}
                 			</div>
                 				<div class="clearfix"> </div>
                 		</div>
