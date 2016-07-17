@@ -30,10 +30,11 @@ class CategoriesController extends Controller
 
         $category_name = Category::where('id', '=', $category_id)->first()->category_name;
 
-        $categories = Category::all();
+        $categories = Category::paginate(6);
 
         return view('laptops.index', compact('products', 'category_name', 'categories'));
     }
+    
 
     public function create(){
 
