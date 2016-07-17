@@ -179,10 +179,12 @@
 								</div>
 							</div>
 						</div>
-						{!! $products->links() !!}
 						@endforeach
 
-					@endif
+                            {!! $products->links() !!}
+
+
+                        @endif
 					</div>
 					</div>
 				</div>
