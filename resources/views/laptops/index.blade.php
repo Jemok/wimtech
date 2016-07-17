@@ -182,10 +182,11 @@
 						@endforeach
                         @endif
                     </div>
+                    <div class="row text-center">
+                    {!! $products->links() !!}
+                     </div>
                 </div>
-                {!! $products->links() !!}
-
-            </div>
+				</div>
 				<div class="col-md-4 products-grid-right">
 				<!--	<div class="w_sidebar">
 						<div class="w_nav1">
