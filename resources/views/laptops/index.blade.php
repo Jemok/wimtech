@@ -181,9 +181,9 @@
 						</div>
 						@endforeach
                         @endif
-                        {!! $products->links() !!}
                     </div>
-					</div>
+                    {!! $products->links() !!}
+                </div>
 				</div>
 				<div class="col-md-4 products-grid-right">
 				<!--	<div class="w_sidebar">
