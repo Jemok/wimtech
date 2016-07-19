@@ -147,8 +147,6 @@
         			<li>
 
         			<a class="color2" href="{{ url('category/'. $category->id)}}">{{$category->category_name}}</a>
-
-
         		    </li>
         		    @endforeach
         		    @endif

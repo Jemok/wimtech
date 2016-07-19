@@ -69,6 +69,14 @@ h1,h2,h3,h4,h5,h6,label,p{
   -ms-transition: 0.5s all;
 }
 
+.bottom-categories{
+	color: white;;
+	display: inline;
+	background-color: black;
+	padding-left: 5px;
+	font-size: large;
+}
+
 .buy-media{
 	position: absolute;
   bottom: 0;

@@ -184,19 +184,19 @@
     @if(Request::getRequestUri() == '/')
     @if(\Auth::guest())
     <!--header-bottom-->
-    	<div class="banner-bottom-top">
-    			<div class="container">
-    			<div class="bottom-header">
-    				<div class="header-bottom">
+    	<div>
+    			<div>
+    			<div>
+    				<div>
     				    @if($categories->count())
     				    @foreach($categories as $category)
-    					<div class=" bottom-head">
+    					<ul class="bottom-categories">
     						<a href="{{url('category/'.$category->id)}}">
-    							<div class="buy-media">
-    								<h6>{{$category->category_name}}</h6>
-    							</div>
+
+    								{{$category->category_name}}
+
     						</a>
-    					</div>
+    					</ul>
     					@endforeach
     					@endif
 
