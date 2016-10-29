@@ -39,6 +39,16 @@
 			          		</div>
 			          	</div>
 			         </li>
+                      <li>
+                          <div class="banner4">
+                              <div class="caption">
+                                  <h3><span>Dealers in:</span></h3>
+                                  <p>Construction Materials </p>
+                                  <p>Sinks, toilets, windows, roofing items e.t.c </p>
+
+                              </div>
+                          </div>
+                      </li>
 			      </ul>
 			  </div>
 			</div>

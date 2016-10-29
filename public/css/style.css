@@ -464,6 +464,16 @@ ul.callbacks_tabs.callbacks1_tabs {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
+.banner4{
+	background: url(../images/toilet.jpeg) no-repeat;
+	width:100%;
+	min-height: 550px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
 /*--content--*/
  /*----*/
 .content-grid h3{
