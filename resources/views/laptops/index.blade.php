@@ -56,7 +56,12 @@
                         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
                       </div>
                       <div class="modal-body">
-                      				<div class="simpleCart_items"></div>
+                      				<table  class="simpleCart_items table">
+
+
+                                    </table>
+
+                                    <div>
 
                       				<form class="form-horizontal" role="form" method="POST">
 
@@ -119,12 +124,33 @@
 
 
 
-                                                            <div class="form-group">
-                                                                <div class="col-md-6 col-md-offset-4">
-                                                                    <a href="javascript:;" class="simpleCart_checkout btn btn-sm btn-primary"><span class="checkout_btn">Send Order</span></a
-                                                                </div>
-                                                            </div>
+                                                            {{--<div class="form-group">--}}
+                                                                {{--<div class="col-md-6 col-md-offset-4">--}}
+                                                                    {{--<a href="javascript:;" class="simpleCart_checkout btn btn-sm btn-primary"><span class="checkout_btn">Send Order</span></a--}}
+                                                                {{--</div>--}}
+                                                            {{--</div>--}}
+
+                                                        {{--<div class="form-group">--}}
+                                                            {{--<div class="col-md-6 col-md-offset-4">--}}
+                                                                {{--<a href="javascript:;" class="simpleCart_checkout btn btn-sm btn-primary">--}}
+                                                                    {{--<span class="checkout_btn">--}}
+                                                                        {{--CheckOut with Locate--}}
+                                                                    {{--</span></a>--}}
+                                                            {{--</div>--}}
+                                                        {{--</div>--}}
+
                                                         </form>
+
+
+                                        <div class="form-group">
+                                            <div class="col-md-6 col-md-offset-4">
+                                                <a href="{{ url('redirect') }}" class="simpleCart_checkout btn btn-sm btn-primary"><span class="checkout_btn">
+                                                                                        CheckOut with Locate
+                                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
