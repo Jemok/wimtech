@@ -83,5 +83,18 @@ Route::get('/callback', function (Request $request) {
         ],
     ]);
 
+
+    $response = $http->post('http://localhost:8000/api/parcel', [
+        'form_params' => [
+            'name' => 'Kenya Flag',
+            'price' => 40000,
+        ],
+    ]);
+
+
     return json_decode((string) $response->getBody(), true);
+
+
+
 });
+
